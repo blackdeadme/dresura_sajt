@@ -167,9 +167,8 @@ header p {
 	margin-top: -100px;
 	margin-left: 20px; 
 	border-radius: 50%;
-	overflow:hidden
+	overflow:hidden;
 }
-
 
 
 .tekst {
@@ -470,7 +469,7 @@ section {
 @media screen and (max-width: 1430px) {
 	
 	.content,  {
-		height: 500px;
+		height: 550px;
 	}
 	
 	#prvi {
@@ -483,73 +482,6 @@ section {
 	#jedan, #dva, #tri {
 		width: 31%;
 		margin: 0 3px;
-	}
-
-@media screen and (max-width: 991px) {
-
-	h1 {
-		font-size: 30px;
-	}
-
-	header p {
-		font-size: 16px;
-	}
-
-	.content, .image  {
-		height: 330px;
-		widows: 100%;
-	}
-
-	.content p {
-		font-size: 1.4vw;
-	}
-
-	.content h1 {
-		font-size: 20px;
-	}
-
-	.izaberi-program {
-		width: 200px;
-		height: 50px;
-		float: right;
-		margin-right: 20px;
-		margin-top: 15px;
-		font-size: 12px;
-	}
-
-	.izaberi-program p {
-		margin-top: 15px;
-	}
-
-	#jedan, #dva, #tri, #cetiri {
-		width: 29%;
-		font-size: 11px;
-	}
-
-	#forma {
-		height: 250px;
-		width: 30%;
-		display: inline-block;
-	}
-	#program {
-		height: 330px;
-	}
-
-	.naslov {
-		font-size: 14px;
-	}
-
-	.tekst {
-		width: 40%;
-	}
-
-	#kontakti {
-		margin-left: 25px;
-	}
-
-	#forma2 {
-		
-		min-width: 650px;
 	}
 
 }

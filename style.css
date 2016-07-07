@@ -6,12 +6,13 @@
 
 body {
 	position: relative;
+	background: rgba(0, 0, 0, 0.8);
 }
 
 /* DEO ZA HEDER */
 
 header {
-	height: 100px;
+	height: 110px;
 	width: 100%;
 	position: fixed;
 	background: rgba(0, 0, 0, 0.8);
@@ -42,6 +43,29 @@ header p {
 	font-family: 'Open Sans', sans-serif;
 	margin-left: 100px;
 
+}
+
+nav {
+	text-align: center;
+	margin:; 0 auto;
+	list-style: none;
+	margin-top: -20px;
+	margin-left: 200px;
+}
+
+nav li {
+	display: inline-block;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	margin: 2px;
+	border: 4px solid #fff;
+	padding: 5px 15px;
+}
+
+nav li:hover {
+	background: rgba(22, 160, 133, 1.0);
+	cursor: pointer;
 }
 
 #tekst-head {
@@ -96,7 +120,6 @@ header p {
 	z-index: 1;
 	width: 100%;
 	height: 650px;
-	background: tomato;
 
 }
 
@@ -123,7 +146,7 @@ header p {
 }
 
 .content p {
-	font-size: 1.5vw;
+	font-size: 1.3vw;
 	color: #fff;
 	margin: 30px 60px 30px 250px;
 }
@@ -137,7 +160,7 @@ header p {
 	background: url(slike/prva.jpg) no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-	height: 550px;
+	height: 750px;
 }
 
 #drugi {
@@ -167,9 +190,8 @@ header p {
 	margin-top: -100px;
 	margin-left: 20px; 
 	border-radius: 50%;
-	overflow:hidden
+	overflow:hidden;
 }
-
 
 
 .tekst {
@@ -294,7 +316,7 @@ h3 {
 }
 
 #pored ul {
-	margin-top: 50%;
+	margin-top: 30%;
 }
 
 
@@ -407,7 +429,7 @@ h3 {
 .sekcija ul {
 	font-weight: bold;
 	text-align: left;
-	margin-left: 80px;
+	margin-left: 20%;
 }
 
 
@@ -464,3 +486,37 @@ section {
 	margin: 0 auto;
 	text-align: center;
 }
+
+#up {
+	position: absolute;
+	right: 14%;
+	bottom: 1.6%;
+
+}
+
+/* RESPONZIVNI DEO */
+
+@media screen and (max-width: 1430px) {
+	
+	.content,  {
+		height: 550px;
+	}
+
+	.content p {
+		font-size: 1.3vw;
+	}
+	
+	#prvi {
+		height: 600px;
+	}
+}
+
+@media screen and (max-width: 1120px) {
+	
+	#jedan, #dva, #tri {
+		width: 31%;
+		margin: 0 3px;
+	}
+
+}
+
